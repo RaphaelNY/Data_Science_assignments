@@ -27,7 +27,7 @@ def plot_chart(title, x, y, chart_type):
     elif chart_type == "scatter":
         plt.plot(x, y, 'o', label=title)
     elif chart_type == "bar":
-        plt.bar(x, y, label=title)
+        plt.bar(x, y, 4, label=title)
 
     plt.legend()
     plt.show()
