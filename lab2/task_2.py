@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-pop = np.random.normal(1, 50, 2000)
+pop = np.random.gamma(1, 50, 2000)
 
 means_size_100 = [np.mean(np.random.choice(pop, size=100)) for _ in range(10000)]
 
